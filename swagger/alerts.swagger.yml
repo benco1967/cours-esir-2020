@@ -66,8 +66,8 @@ paths:
     get:
       tags:
         - alert
-      summary: Search Alerts by different criterias
-      description: Muliple criterias can be provided with comma separated strings.
+      summary: Search Alerts by status
+      description: Multiple status can be provided with comma separated status. 
       operationId: searchAlert
       produces:
         - application/json
